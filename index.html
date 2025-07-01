@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .login-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .login-box {
+            background-color: #000;
+            border: 1px solid #262626;
+            padding: 32px 32px 24px;
+            width: 300px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: 600;
+            margin-bottom: 24px;
+            font-family: Segoe UI, Arial, sans-serif;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 9px 0 7px 8px;
+            background: #121212;
+            border: 1px solid #262626;
+            border-radius: 3px;
+            color: #fff;
+            margin-bottom: 6px;
+            font-size: 14px;
+        }
+
+        .btn-login {
+            background-color: #4BB4F8;
+            border: none;
+            padding: 8px 0;
+            color: white;
+            font-weight: bold;
+            width: 100%;
+            border-radius: 4px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        .forgot-pass {
+            font-size: 12px;
+            color: #b3b3b3;
+            margin-top: 12px;
+        }
+
+        .signup-box {
+            margin-top: 10px;
+            background-color: #000;
+            border: 1px solid #262626;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        .signup-box a {
+            color: #0095f6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .app-links {
+        text-align: center;
+    }
+
+    .app-links a {
+        text-decoration: none;
+        color: inherit;
+    }
+            margin-top: 20px;
+            text-align: center;
+            color: #a8a8a8;
+            font-size: 14px;
+        }
+
+        .app-links a img {
+            height: 40px;
+            margin: 4px;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 12px;
+            color: #8e8e8e;
+            text-align: center;
+        }
+
+        footer div {
+            max-width: 1000px;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            line-height: 1.8;
+            margin: 0 auto;
+            padding: 0 10px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .login-box, .signup-box {
+                width: 90%;
+                padding: 24px 16px;
+            }
+
+            .app-links a img {
+                height: 36px;
+            }
+
+            footer div {
+                font-size: 11px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="login-wrapper">
+        <div class="login-box">
+            <img src="https://hawaiivideopro.com/wp-content/uploads/instagram-logo-icon-white-border-text-black-background-300x88.png" alt="" style="height: 58px; margin-bottom: 24px;">
+            <input type="text" placeholder="Num. téléphone, nom de profil ou e‑mail">
+            <input type="password" placeholder="Mot de passe">
+            <button class="btn-login" onclick="window.location.href='https://www.instagram.com/accounts/login/'">Se connecter</button>
+            <div class="forgot-pass">Mot de passe oublié ?</div>
+        </div>
+        <div class="signup-box">
+            Vous n'avez pas de compte ? <a href="https://www.instagram.com/accounts/emailsignup/">Inscrivez-vous</a>
+        </div>
+        <div class="app-links">
+            Téléchargez l'application.<br>
+            <a href="https://play.google.com/store/apps/details?id=com.instagram.android" target="_blank" rel="noopener">
+                <img style="height: 32px;" alt="Téléchargez-le dans Google Play" src="https://static.cdninstagram.com/rsrc.php/v4/yr/r/093c-DX36-y.png">
+            </a>
+            <a href="ms-windows-store://pdp/?productid=9nblggh5l9xt" target="_blank" rel="noopener">
+                <img style="height: 32px;" alt="Téléchargez-le sur Microsoft Store" src="https://static.cdninstagram.com/rsrc.php/v4/yk/r/NtqqucWkedn.png">
+            </a>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <span>Meta</span>
+            <span>À propos</span>
+            <span>Blog</span>
+            <span>Emplois</span>
+            <span>Aide</span>
+            <span>API</span>
+            <span>Confidentialité</span>
+            <span>Paramètres des cookies</span>
+            <span>Conditions</span>
+            <span>Lieux</span>
+            <span>Instagram Lite</span>
+            <span>Threads</span>
+            <span>Importation des contacts et non-utilisateurs</span>
+            <span>Meta Verified</span>
+            <span>Résilier des contrats ici</span>
+        </div>
+        <div style="margin-top: 20px;">© 2025 Instagram par Meta</div>
+    </footer>
+</body>
+</html>
